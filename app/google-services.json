@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "516169734993",
+    "project_id": "selfiee-click",
+    "storage_bucket": "selfiee-click.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516169734993:android:afa8a088ded1b660a31170",
+        "android_client_info": {
+          "package_name": "com.example.selfieeclick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516169734993-jmaghbheuqge465ta443988mebnghuqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7F0_LX2tYt6onK7HUYBTqBfnEc2rVRCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516169734993-jmaghbheuqge465ta443988mebnghuqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

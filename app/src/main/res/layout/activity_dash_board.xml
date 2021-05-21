@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DashBoard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="right"
+        android:background="#FFEB3B"
+        android:id="@+id/toolbar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"/>
+
+
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:background="@drawable/setting_image"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/logout"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/logout2"
+            android:layout_gravity="center"
+            android:id="@+id/imagesetting"/>
+
+
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mainuserrecyclerview"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+
+
+
+</RelativeLayout>
